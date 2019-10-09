@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp" />
+
+    <TextView
+        android:id="@+id/txtGravity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp" />
+
+    <TextView
+        android:id="@+id/txtDiameter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp" />
+
+</LinearLayout>
