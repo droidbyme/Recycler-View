@@ -52,4 +52,14 @@
         android:textAllCaps="false"
         android:textStyle="bold" />
 
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnMultipleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="RecyclerView with multiple view type"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+
 </LinearLayout>

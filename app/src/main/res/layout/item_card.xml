@@ -25,22 +25,20 @@
             android:id="@+id/txtDistance"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="1dp"
-            android:textColor="@color/black" />
+            android:padding="1dp" />
 
         <TextView
             android:id="@+id/txtGravity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="1dp"
-            android:textColor="@color/black" />
+            android:padding="1dp" />
 
         <TextView
             android:id="@+id/txtDiameter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="1dp"
-            android:textColor="@color/black" />
+            android:padding="1dp" />
+
     </LinearLayout>
 
 </android.support.v7.widget.CardView>

@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private AppCompatButton btnSwipe;
     private AppCompatButton btnNormal;
     private AppCompatButton btnCardView;
+    private AppCompatButton btnMultipleView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnMultiple.setOnClickListener(this);
         btnSwipe.setOnClickListener(this);
         btnNormal.setOnClickListener(this);
+        btnMultipleView.setOnClickListener(this);
     }
 
     @Override
@@ -52,6 +54,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btnCardView:
                 startActivity(new Intent(MainActivity.this, CardRecyclerViewActivity.class));
                 break;
+
+            case R.id.btnMultipleView:
+                startActivity(new Intent(MainActivity.this, MultipleViewTypeActivity.class));
+                break;
         }
     }
 
@@ -61,5 +67,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnSingle = (AppCompatButton) findViewById(R.id.btnSingle);
         btnSwipe = (AppCompatButton) findViewById(R.id.btnSwipe);
         btnCardView = (AppCompatButton) findViewById(R.id.btnCardView);
+        btnMultipleView = (AppCompatButton) findViewById(R.id.btnMultipleView);
     }
 }
